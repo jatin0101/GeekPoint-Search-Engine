@@ -23,7 +23,7 @@ ss = map_keywords.size;
 
 problems_arr = [];
 const indexofprob = new Map();
-
+const PORT = process.env.PORT || 3000;
 const app = express();
 mongoose.connect(dbURI)
     .then((result) => {
@@ -41,7 +41,7 @@ mongoose.connect(dbURI)
                 index++;
             })
 
-        }).then(() => app.listen(3000)).then(() => console.log('connected')) })
+        }).then(() => app.listen(PORT)).then(() => console.log('connected')) })
     .catch((err) => console.log(err));
 
 app.set('view engine', 'ejs');
