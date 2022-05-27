@@ -28,5 +28,5 @@ Click on the 'Go to Problem website' button at the end of this page to visit the
 npm install
 npm run start
 ```
-* Wait for some time untill the localhost port is setup and is connected to the database. Wait until 'connected' is displayed in the terminal.
+* Wait for some time untill the localhost port is setup and is connected to the database. Once the port is setup, 'connected' will be displayed on the terminal.
 * The localhost port is ready to use. You can visit 'localhost:3000/' in your browser to visit the site.
