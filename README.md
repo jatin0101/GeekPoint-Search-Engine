@@ -22,7 +22,7 @@ Click on the 'Go to Problem website' button at the end of this page to visit the
 ### Steps to build the code locally
 
 * Download and extract all the files from the git repo.
-* open the downloaded folder inside the terminal.
+* Open the downloaded folder inside the terminal.
 * Run the following code:
 ```
 npm install
