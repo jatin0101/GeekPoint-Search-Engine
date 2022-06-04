@@ -1,6 +1,6 @@
 # GeekPoint
 
-GeekPoint is a search engine designed specifally to search DSA (data sturctures and algorithms) problems across various CP platforms.
+GeekPoint is a search engine designed specifally to search DSA (data structures and algorithms) problems across various CP platforms.
 It has a nice user experience and it finds search results in few seconds. The search engine uses BM 25 similarity function to estimate the relevance of documents in database to the given search query.
 The search engine is run by a Node.js + Express server. The frontend is written using HTML, BootStrap CSS and EJS. The database is created by scrapping web using Beautiful Soup and Selenium in python and is stored in MongoDB.
 
